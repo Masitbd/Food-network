@@ -54,11 +54,12 @@ h2{
   background-image: url(images/about.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
-  
+  background-size: cover;
+  /*height: 450px;
+*/  
  }
 
-.experience-item{
+.menu-item{
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
@@ -67,24 +68,21 @@ h2{
   border-radius: 5px;
   
   }
-.experience-area{
+.menu-area{
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   
 }
-#web-dev-experience{
+.menu{
  
-  padding-top: 20px;
-}
-#full-stack-experience{
-  
-  padding-top: 20px;
+  padding: 20px;
+  }
 
-}
 footer{
   text-align: center;
   background-color: DarkSalmon;
   padding: 5px;
+  margin-top: 20px;
   color: white;
  
 }
@@ -98,10 +96,11 @@ footer{
 }
 
 .recipe{
-  height: 150px;
+  height: 200px;
   width: 90%;
   background-color: gray;
   margin-bottom: 50px;
+  margin-top: 50px;
   margin-left: 80px;
   padding: 10px;
   color: blue;
@@ -110,4 +109,12 @@ footer{
 .recipe-color{
   color: orange;
   text-align: center;
+}
+
+#blue-color{
+  color: red;
+}
+
+#about-content{
+  padding-top: 300px;
 }
