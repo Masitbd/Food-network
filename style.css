@@ -16,6 +16,7 @@ h2{
 .flexible-container{
   display:flex;
   margin-bottom: 0px;
+  
 }
 
 .half-width{
@@ -47,10 +48,17 @@ h2{
   height: 450px;
   
 }
-.dream-big{
-  background-image: url(images/dream-bg.png);
+
+
+.about-me{
+  background-image: url(images/about.png);
   background-repeat: no-repeat;
   background-position: right;
+  background-size: contain;
+  
+ 
+ 
+ 
 }
 
 .experience-item{
